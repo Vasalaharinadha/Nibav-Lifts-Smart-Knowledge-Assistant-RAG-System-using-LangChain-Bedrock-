@@ -1,0 +1,42 @@
+# ------------------------
+# Core Web Framework
+# ------------------------
+fastapi
+uvicorn[standard]
+python-dotenv
+anyio
+nest-asyncio
+
+# ------------------------
+# Database (PostgreSQL)
+# ------------------------
+asyncpg
+SQLAlchemy
+
+# ------------------------
+# AWS Bedrock (Claude / Titan)
+# ------------------------
+boto3
+amazon-bedrock
+
+# ------------------------
+# LangChain & Vector Search
+# ------------------------
+langchain
+langchain-core==0.3.7
+langchain-community==0.3.7
+langchain-text-splitters==0.3.7
+chromadb==0.5.5
+
+# ------------------------
+# PDF Processing
+# ------------------------
+pdfplumber
+PyMuPDF
+
+# ------------------------
+# Optional Utilities
+# ------------------------
+python-multipart   # For PDF uploads
+orjson             # Faster JSON serialization
+rich               # For colorful console logs
